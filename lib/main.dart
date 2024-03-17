@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pos_app/authentication/login.dart';
+import 'package:pos_app/test/drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const LoginScreen(),
+      home:  App(parentContext: context),
     );
   }
 }
