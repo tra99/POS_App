@@ -46,10 +46,10 @@ class _AppState extends State<App> {
           title: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.asset(
-                "lib/images/logo_app_bar.jpg",
-                width: 40,
-              ),
+              // Image.asset(
+              //   "lib/images/logo_app_bar.jpg",
+              //   width: 40,
+              // ),
               const SizedBox(
                 width: 10,
               ),

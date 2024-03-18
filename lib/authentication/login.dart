@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pos_app/components/login_signup_button.dart';
 import 'package:pos_app/components/password_textfield.dart';
+import 'package:pos_app/test/drawer.dart';
 import 'package:pos_app/views/home_screen.dart';
 
 import '../components/normal_textfield.dart';
@@ -96,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const MyHomeScreen()));
+                              builder: (context) =>  App(parentContext: context,)));
                     },
                     text: "ចូលប្រព័ន្ធ",
                   )

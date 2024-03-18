@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:pos_app/authentication/login.dart';
 import 'package:pos_app/test/drawer.dart';
 
+import 'test/card.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home:  App(parentContext: context),
+      home:  CardWidget()
     );
   }
 }
